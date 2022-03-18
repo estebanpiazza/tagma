@@ -1,0 +1,262 @@
+/* helvetica  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+/*bodoni font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; */
+.helvetica{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:18px;}
+.bodoni{font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;font-size:18px;}
+
+
+
+img {
+   width: 100%;
+
+}
+
+.imagen-archivo{
+    width:100%;
+    margin-top:30px;
+    
+}
+
+li{ list-style-type: none;
+display:inline;
+padding: 10px;
+float:right;}
+
+.titulo{position:fixed;
+    left:20px;
+    top: 20px;
+    display:inline;
+    z-index: 999;
+}
+
+ul.menu-navbar{position:fixed;
+    top: 0;
+    display:inline;
+    z-index: 900;
+    right: 0;
+background-color: white;
+width: 100%; margin-right: 90px;}
+
+
+.container {
+   margin-top: 50px; /* Add a top margin to avoid content overlay */
+  }
+
+.img-col{
+    width: 100%;
+ }
+
+.imagen-central{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    width: 30%;
+    height: 30%;
+    
+  }
+
+ .imagen-maca{
+     width: 100%;
+     margin-bottom: 10px;
+ }
+
+ .imagen-2{
+     width: 20%;
+ }
+
+ hr.new5 {
+     width: 100%;
+    border: 2px solid black;
+    border-radius: 0px;
+  }
+
+
+ .imagen-maca2{
+    width: 100%;
+ } 
+ .imagen-col2{
+     margin-bottom: 20px;
+    width: 100%;
+ }
+
+ .imagen2-col2{
+    width: 100%;
+ }
+
+ a:link{
+    color:black;
+ }
+ 
+ a {
+    color:black;
+ }
+
+ li{
+    
+        color:black;
+     }
+ .logo-archivo{
+    transform: rotate(90deg);
+ width: 10%;
+ position: fixed;
+ left: 0;
+ bottom: 0;
+margin-bottom: 5%;}
+
+.menu-lateral1{
+    transform: rotate(-90deg);
+ position: fixed;
+ left: 30px;
+ bottom: 0;
+margin-bottom: 20%;
+font-size: 11px;
+}
+
+
+
+.menu-lateral2{
+    transform: rotate(-90deg);
+    position: fixed;
+ left:43px;
+bottom: 0;
+margin-bottom: 28%;font-size: 11px}
+ 
+hr.new4 {
+    
+    width: 100%;
+   border: 1px solid black;
+   border-radius: 0px;
+ }
+
+.menu-archivo{
+    display:block ;
+    color:black;
+    float:left;
+}
+        
+.menu-archivo{font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;font-size: 24px;}
+.runner{ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 28px; }
+.minfesto{ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 28px; }
+.balneario{ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 28px; }
+.extraccion{ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 28px; }
+.rock{ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 28px; }
+.rosa{ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 28px; }
+.pulp{ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 28px; }
+.inmigrantes{ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 28px; }
+
+     a.runner:hover:after {
+        content: url(img_chicas/RUNNER\ 1.jpg); /* no need for qoutes */
+        position: absolute;
+        left:40;
+        top: 100;
+        z-index: -1;
+       
+        
+                     
+     }
+     a.minfesto:hover:after {
+        content: url(img_chicas/MANIFESTO\ 2.jpg); /* no need for qoutes */
+        position: absolute;
+        left:40;
+        top: 100;
+        z-index: -1;
+        
+     }
+     a.balneario:hover:after {
+        content: url(img_chicas/BALNEARIO\ 1.jpg); /* no need for qoutes */
+        position: absolute;
+        left:40;
+        top: 300;
+        z-index: -1;
+        
+                  
+     }
+     a.inmigrantes:hover:after {
+      content: url(img_chicas/INMIGRANTES\ 1.jpg); /* no need for qoutes */
+      position: absolute;
+      z-index: -1;
+      left:40;
+      top: 100;
+                
+   }
+     a.extraccion:hover:after {
+        content: url(img_chicas/EXTRACCION\ 1.jpg); /* no need for qoutes */
+        position: absolute;
+        left:40;
+        top: 400;
+        z-index: -1;
+        
+                  
+     }
+     a.rock:hover:after {
+        content: url(img_chicas/ROCK\ 1.jpg); /* no need for qoutes */
+        position: absolute;
+        left:40;
+        top:400;
+        z-index: -1;
+       
+                  
+     }
+  
+     a.rosa:hover:after {
+      content: url(img_chicas/PIENSA\ 1.jpg); /* no need for qoutes */
+      position: absolute;
+      left:40;
+      top: 400;
+      z-index: -1;
+        
+                  
+     }
+     
+     a.pulp:hover:after {
+        content: url(img_chicas/PULP\ 1.jpg); /* no need for qoutes */
+        position: absolute;
+        z-index: -1;
+        left:40;
+        top: 500;
+                  
+     }
+     
+
+     .titulo-info{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 28px;}
+     .categoria-info{font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;font-size: 29px;}
+     .texto-parrafo{font-size:18px;}
+
+
+
+
+     .content_img{
+      position: relative;
+      float: left;
+      
+     }
+     
+     /* Child Text Container */
+     .content_img div{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: black;
+      color: white;
+      font-family: sans-serif;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: visibility 0s, opacity 0.5s linear; 
+      transition: visibility 0s, opacity 0.5s linear;
+     }
+
+
+     .content_img:hover div{
+      padding:10px;
+      width: 100%;
+      height: 100%;
+       visibility: visible;
+      opacity: 0.7; 
+     }
+
+  
+     .helvetica{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 30px;}
+
+
+     
